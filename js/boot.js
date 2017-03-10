@@ -7,7 +7,7 @@ var bootState = {
   
   create: function() {
     game.physics.startSystem(Phaser.Physics.ARCADE);
-    game.stage.backgroundColor = '#3498db';
+    game.stage.backgroundColor = 'rgb(113, 184, 14)';
     /* Scale the game to keep aspect ratio untouched and 
                 always show the complete game */
     game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
@@ -16,7 +16,7 @@ var bootState = {
     // If the device is not a desktop, so it's a mobile device
     if (!game.device.desktop) {
       // Add a blue color to the page, to hide the white borders we might have
-      document.body.style.backgroundColor = '#3498db';
+      document.body.style.backgroundColor = 'rgb(113, 184, 14)';
       // Set the min and max width/height of the game
       game.scale.minWidth = 400;
       game.scale.minHeight = 170;
@@ -28,7 +28,7 @@ var bootState = {
     }
     else {
       //Desktop device, so we can use higher max widths and heights
-      document.body.style.backgroundColor = '#3498db';
+      document.body.style.backgroundColor = 'rgb(113, 184, 14)';
       // Set the min and max width/height of the game
       game.scale.minWidth = 400;
       game.scale.minHeight = 170;

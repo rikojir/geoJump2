@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example');
+var game = new Phaser.Game(window.innerWidth, 600, Phaser.AUTO, 'phaser-example');
 
 game.global = {
   level: 1,
