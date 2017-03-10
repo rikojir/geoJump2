@@ -94,12 +94,11 @@ var playState = {
     ////////////////////////////////////////////////////
 
 
-    
-
-    game.global.player = game.add.sprite(10, game.world.centerY, 'player');
-    game.physics.arcade.enable(game.global.player);
 
     this.createWorld();
+    
+    game.global.player = game.add.sprite(20, game.world.height/2, 'player');
+    game.physics.arcade.enable(game.global.player);
 
     this.createEnemies();
 
@@ -351,6 +350,7 @@ var playState = {
     
       this.levelCompletedCheck();
 
+      //game.scale.refresh();
   },
 
   playerDieCheck: function() {

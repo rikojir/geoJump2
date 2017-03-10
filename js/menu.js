@@ -4,7 +4,7 @@ var menuState = {
         // Add a background image game.add.image(0, 0, 'background');
         // Display the name of the game
         this.nameLabel = game.add.text(game.camera.width / 2, -50, 'Super Coin Box', {
-            font: '50px Geo'
+            font: '70px Geo'
             , fill: '#ffffff'
         });
         this.nameLabel.anchor.setTo(0.5, 0.5);
@@ -24,7 +24,7 @@ var menuState = {
         }
     
         // Show the score at the center of the screen
-        var scoreLabel = game.add.text(game.camera.width / 2, game.camera.height / 2, 'score: ' + game.global.score + '\n' + 'best score: ' + localStorage.getItem('bestScore'), {font: '25px Geo', fill: '#ffffff'});
+        var scoreLabel = game.add.text(game.camera.width / 2, game.camera.height / 2, 'score: ' + game.global.score + '\n' + 'best score: ' + localStorage.getItem('bestScore'), {font: '40px Geo', fill: '#ffffff'});
         scoreLabel.anchor.setTo(0.5, 0.5);
       
         // Create mute button
@@ -48,7 +48,7 @@ var menuState = {
         }
 
         // Explain how to start the game
-        var startLabel = game.add.text(game.camera.width / 2, game.camera.height - game.camera.height/5, text, {font: '25px Geo', fill: '#ffffff'});
+        var startLabel = game.add.text(game.camera.width / 2, game.camera.height - game.camera.height/5, text, {font: '40px Geo', fill: '#ffffff'});
         startLabel.anchor.setTo(0.5, 0.5);
       
         //Tween for startLabel

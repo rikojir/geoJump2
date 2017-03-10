@@ -30,10 +30,10 @@ var bootState = {
       //Desktop device, so we can use higher max widths and heights
       document.body.style.backgroundColor = 'rgb(113, 184, 14)';
       // Set the min and max width/height of the game
-      game.scale.minWidth = 400;
-      game.scale.minHeight = 170;
-      game.scale.maxWidth = 1200;
-      game.scale.maxHeight = 560;
+      game.scale.minWidth = 200;
+      game.scale.minHeight = 85;
+      game.scale.maxWidth = 1600;
+      game.scale.maxHeight = 800;
       // Center the game on the screen
       game.scale.pageAlignHorizontally = true;
       game.scale.pageAlignVertically = true;
