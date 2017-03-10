@@ -1,4 +1,4 @@
-var game = new Phaser.Game(window.innerWidth * devicePixelRatio, window.innerHeight * devicePixelRatio * 1.1, Phaser.AUTO, 'phaser-example');
+var game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.CANVAS, 'phaser-example');
 
 game.global = {
   level: 1,
